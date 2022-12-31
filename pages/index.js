@@ -1,5 +1,4 @@
 import Head from "next/head";
-import Image from "next/image";
 import Table from "../components/Table";
 import styles from "../styles/Home.module.css";
 
@@ -29,7 +28,7 @@ export default function Home({ pokemons }) {
       <main className={styles.main}>
         <div className={styles.description}>
           <div>
-            <Image
+            <img
               src="/pokeapi.svg"
               alt="Vercel Logo"
               className={styles.vercelLogo}
