@@ -5,16 +5,21 @@
  */ 
 @charset "UTF-8";
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,700);
+
 .header {
+    font-family: 'Open Sans', sans-serif;
     font-size: 3em;
-    font-weight: 300;
+    font-weight: w700;
     line-height: 1em;
     text-align: center;
     color: #4DC3FA;
+    margin: 15px;
+    text-transform: uppercase;
 }
 
-.github-ref {
-    font-size: 1em;
+.github_ref {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2em;
     font-weight: 300;
     text-align: center;
     display: block;
@@ -30,6 +35,11 @@
     text-decoration: none;
 }
 
+.link:hover{
+    color: wheat;
+    text-decoration: underline;
+
+}
 .blue {
     color: #185875;
 }
