@@ -4,12 +4,16 @@ import styles from "../styles/Table.module.css";
 const Table = ({ pokemons }) => {
   return (
     <>
-      <h1 className="header">
+      <h1 className={styles.header}>
         <span className={styles.yellow}>Pokkemons</span>
       </h1>
-      <h2 className="github-ref">
+      <h2 className={styles.github_ref}>
         Created by{" "}
-        <Link href="https://github.com/noorarman" target="_blank">
+        <Link
+          className={styles.link}
+          href="https://github.com/noorarman"
+          target="_blank"
+        >
           Noor Ul Amin
         </Link>
       </h2>
