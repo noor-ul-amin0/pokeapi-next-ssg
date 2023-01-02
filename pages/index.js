@@ -30,7 +30,7 @@ export default function Home({ pokemons }) {
           <div>
             <img
               src="/pokeapi.svg"
-              alt="Vercel Logo"
+              alt="Pokemon"
               className={styles.vercelLogo}
               width={150}
               height={80}
